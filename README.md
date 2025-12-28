@@ -74,4 +74,4 @@
   - Return to Title Screen — Key T.
   - Debug mode — Key Tab.
 * The repository also has a builtin version of the game, where all the media such as fonts, audio, and images are built into the executable file.
-
+* Compiling command: "g++ "file.cpp" -std=c++17 -g -static -static-libgcc -static-libstdc++ -o "file.exe" -I "raylib-5.5_win64_mingw-w64\include" -L "raylib-5.5_win64_mingw-w64\lib" -lraylib -lopengl32 -lgdi32 -lwinmm -mwindows".
